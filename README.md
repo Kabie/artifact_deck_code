@@ -1,6 +1,6 @@
 # ArtifactDeckCode
 
-**TODO: Add description**
+Encoder and decoder for decks of the Artifact game. See [Reference coder by Valve](https://github.com/ValveSoftware/ArtifactDeckCode).
 
 ## Installation
 
@@ -18,4 +18,3 @@ end
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/artifact_deck_code](https://hexdocs.pm/artifact_deck_code).
-
