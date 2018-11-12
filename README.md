@@ -1,6 +1,6 @@
 # ArtifactDeckCode
 
-Encoder and decoder for decks of the Artifact game. See [Reference coder by Valve](https://github.com/ValveSoftware/ArtifactDeckCode).
+Encoder and decoder for decks of the Artifact game. See [reference coder by Valve](https://github.com/ValveSoftware/ArtifactDeckCode).
 
 ## Installation
 
