@@ -32,6 +32,8 @@ defmodule ArtifactDeckCodeTest do
 
   test "encode v2" do
     assert ArtifactDeckCode.encode(@example_deck, 2) == {:ok, @example_deck_code_v2}
+
+    {:ok, _without_name} = ArtifactDeckCode.encode(Map.delete(@example_deck, :name), 2)
   end
 
   test "decode v1" do

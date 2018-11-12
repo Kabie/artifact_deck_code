@@ -21,7 +21,8 @@ defmodule ArtifactDeckCode.Encoder do
     {:error, :name_too_long}
   end
 
-  def encode(%{name: name, heroes: heroes, cards: cards}, 2) do
+  def encode(%{heroes: heroes, cards: cards} = deck, 2) do
+    name = Map.get(deck, :name, "")
     name_len = byte_size(name)
     heroes_count = length(heroes)
     cards_bytes = encode_cards(heroes) <> encode_cards(cards)
